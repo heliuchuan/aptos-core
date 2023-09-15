@@ -168,6 +168,7 @@ async fn register_probes_and_metrics_handler(port: u16) {
             .header("Content-Type", "text/plain")
             .body(encode_buffer)
     });
+    eprintln!("Starting to listen on port {}", port);
     warp::serve(readiness.or(metrics_endpoint))
         .run(([0, 0, 0, 0], port))
         .await;

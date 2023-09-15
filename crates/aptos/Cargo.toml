@@ -33,6 +33,12 @@ aptos-global-constants = { workspace = true }
 aptos-keygen = { workspace = true }
 aptos-ledger = { workspace = true }
 aptos-logger = { workspace = true }
+redis = {workspace = true}
+aptos-indexer-grpc-cache-worker = { workspace = true }
+aptos-indexer-grpc-file-store = { workspace = true }
+aptos-indexer-grpc-data-service = { workspace = true }
+aptos-indexer-grpc-utils = { workspace = true }
+aptos-indexer-grpc-server-framework = { workspace = true }
 aptos-network-checker = { workspace = true }
 aptos-node = { workspace = true }
 aptos-rest-client = { workspace = true }
